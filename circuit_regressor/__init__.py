@@ -1,4 +1,4 @@
-from .Circuit_Regressor import (
+from .circuit_regressor import (
     ElectricalSymbolicRegressor,
     symbolic_regressor_circuit,
     w_sym
