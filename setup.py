@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="Circuit_Regressor",
+    name="circuit_regressor",
     version="0.1.0",
     author="Carlos Murillo",
     author_email="cmurillos@unal.edu.co",
