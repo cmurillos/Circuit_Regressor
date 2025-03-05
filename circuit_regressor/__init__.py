@@ -1,11 +1,4 @@
-from .circuit_regressor import (
-    ElectricalSymbolicRegressor,
-    symbolic_regressor_circuit,
-    w_sym
-)
+from .circuit_regressor import CircuitComponent, ElectricalSymbolicRegressor, symbolic_regressor_circuit
 
-__all__ = [
-    "ElectricalSymbolicRegressor",
-    "symbolic_regressor_circuit",
-    "w_sym"
-]
+__version__ = "0.1.0"
+__all__ = ["CircuitComponent", "ElectricalSymbolicRegressor", "symbolic_regressor_circuit"]
